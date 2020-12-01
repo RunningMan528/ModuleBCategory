@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "ModuleBCategory"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "调度B模块的中间件逻辑"
 
   # This description is used to generate tags and improve search results.
@@ -78,7 +78,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/RunningMan528/ModuleBCategory.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/RunningMan528/ModuleBCategory.git", :tag => spec.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
